@@ -1,0 +1,83 @@
+.footer2{
+    width: 1024px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../images/footer/Layer 37.png");
+
+    margin: 0 auto;
+}
+.footer2 .information{
+    display: flex;
+}
+.footer2 .information ul{
+    width: 105px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 10px;
+}
+.footer2 .information ul li{
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Arial";
+}
+.footer2 .information ul li:nth-child(1){
+    font-size: 22px;
+    line-height: 33px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 300;
+}
+.footer2 .information .testimoanials{
+    width: 320px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Arial";
+    margin: 10px;
+}
+.header-testimoanials{
+
+    background-image: url("../images/footer/Layer 38 copy.png"),
+                        url("../images/footer/Layer 38 copy 2.png");
+    background-position: 55% 50%, 48% 50%;
+    background-repeat: no-repeat, no-repeat;
+
+    font-size: 22px;
+    line-height: 33px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 300;
+}
+.footer-testimoanials{
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Arial";
+    font-weight: bold;
+}
+.footer2 .logo{
+    display: flex;
+    flex-direction: column;
+}
+.footer2 .logo span:nth-child(1){
+    font-size: 119px;
+    line-height: 33px;
+    color: #ffffff;
+    font-family: "Mrs Eaves Italic";
+    font-style: italic;
+    text-align: left;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.footer2 .logo span:nth-child(2){
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Arial";
+}

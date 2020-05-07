@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.header .logo{
+    font-size: 119px;
+    line-height: 33px;
+    color: #ffffff;
+    font-family: "Mrs Eaves Italic";
+    font-style: italic;
+    text-align: left;
+
+    width: 250px;
+    height: 60px;
+}
+.header .top-menu ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.header .top-menu ul li{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.header .top-menu ul li a{
+    width: 742px;
+    height: 307px;
+    font-size: 23px;
+    color: #ffffff;
+    font-family: "Segoe WP N";
+    font-weight: 300;
+    text-align: left;
+    text-decoration: none;
+}
+

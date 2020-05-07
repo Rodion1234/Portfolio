@@ -1,0 +1,119 @@
+.footer1{
+    display:flex;
+    justify-content: space-between;
+    width: 1024px;
+    margin: 0 auto;
+
+    margin-bottom: 50px;
+}
+.footer1 .login{
+    background-color: #e67624;
+    
+    width: 470px;
+    height: 110px;
+
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+    border: 1px solid #e67624;
+}
+.footer1 h2{
+    padding-left: 10px;
+    color: #e8e8e8;
+}
+.footer1 form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer1  input[type="text"]{
+    width: 155px;
+    height: 26px;
+    background-color: #e8e8e8;
+
+    font-size: 16px;
+    line-height: 38px;
+    color: #4f4f4f;
+    font-family: "Segoe WP N";
+    font-weight: 300;
+    border: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+.footer1  input[type="password"]{
+    width: 155px;
+    height: 26px;
+    background-color: #e8e8e8;
+
+    font-size: 16px;
+    line-height: 38px;
+    color: #4f4f4f;
+    font-family: "Segoe WP N";
+    font-weight: 300;
+    border: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+.footer1 .login  input[type="submit"]{
+    width: 94px;
+    height: 30px;
+    background-color: #444444;
+
+    font-size: 16px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP N";
+    font-weight: 300;
+
+    border: none;
+    padding: 0px;
+    margin: 0;
+    padding: 0;
+}
+.footer1 .subscribe{
+    background-color: #01d4f3;
+
+    
+    width: 470px;
+    height: 110px;
+
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+    border: 1px solid #01d4f3;
+}
+.footer1 .subscribe  input[type="submit"]{
+    width: 94px;
+    height: 30px;
+    background-color: #029bb1;
+
+    font-size: 16px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP N";
+    font-weight: 300;
+
+    border: none;
+    padding: 0px;
+    margin: 0;
+    padding: 0;
+}
+.footer1 .subscribe  input[type="email"]{
+    width: 264px;
+    height: 26px;
+    background-color: #e8e8e8;
+
+    font-size: 16px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP N";
+    font-weight: 300;
+
+    border: none;
+    padding: 0px;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}

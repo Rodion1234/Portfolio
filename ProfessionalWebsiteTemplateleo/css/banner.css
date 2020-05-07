@@ -1,0 +1,64 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+.banner .icon{
+    background-image: url("../images/banner/cofree.png");
+    background-repeat: no-repeat;
+    width: 344px;
+    height: 335px;
+}
+.banner .bnr-text{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 65px;
+    color: #ffffff;
+    font-family: "Segoe WP N";
+    font-weight: bold;
+}
+.banner .bnr-text span:nth-child(2){
+    font-weight: lighter;
+}
+.banner .bnr-text button{
+    width: 138px;
+    height: 38px;
+    background-color: #11b367;
+    border: none;
+
+    font-size: 23px;
+    color: #ffffff;
+    font-family: "Segoe WP N";
+    font-weight: 300;
+    text-align: center;
+    border: 4px solid rgba(0,0,0,0.37);
+
+    margin-top: 10px;
+}
+.banner .bnr-text button:hover{
+    cursor: pointer;
+}
+.banner .bnr-btn-left{
+    background-image: url("../images/banner/Shape 2 copy.png");
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgba(1,1,1,0.1);
+    border: none;
+}
+.banner .bnr-btn-right{
+    background-image: url("../images/banner/Shape 2 copy 2.png");
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgba(1,1,1,0.1);
+    border: none;
+}
+.banner .bnr-btn-left:hover{
+    cursor: pointer;
+}
+.banner .bnr-btn-right:hover{
+    cursor: pointer;
+}
